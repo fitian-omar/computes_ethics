@@ -19,7 +19,9 @@ Research
 What topics are you currently interested in researching, or have already done in your major studies.
 - The impact of academic advising on educational discernment. This research was conducted as part of St. Olaf College's Strategic Planning.
 - I am interested in issues of representation in colonial and postcolonial contexts.
-What topics are you interested in learning about regarding ethics.
+- I am interested in learning and contributing to the field of computational social science while introducing a critical/reflexive component.
+
+What topics are you interested in learning about regarding ethics?
 - Automated drone strikes, tech apartheid, attention economy algorithms, and normative history in LLMs.
 
 Personal Life

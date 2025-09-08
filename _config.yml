@@ -23,12 +23,11 @@ repository               : "https://github.com/fitian-omar/computes_ethics"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "First Last" #update
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left hand sidebar"
+  name             : "Omar Fitian" #update  
+  bio              : "BA in Sociology/Anthropology and Computer Science"
   employer         : "St. Olaf College"
   uri              : # URL
-  email            : #"[username]@stolaf.edu" #update
+  email            : "fitian1@stolaf.edu" #update
 
   # links
   academia         : # URL
