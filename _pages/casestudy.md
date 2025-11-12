@@ -13,7 +13,7 @@ author_profile: true
 
 # Introduction
 
-Large Language Models (LLMs) such as GPT, Claude, and Gemini are now integral to global knowledge production. They generate text, summarise ideas, and make moral judgements. While portrayed as objective and value-free, they are not. This case study analyses how these models shape and enforce normative discourses. A normative discourse is a set of moral, cultural, and epsitemological assumptions about what coutns as truth, fairness, or reason that is structured through both language, power, and knowledge. Let's explore the ethical implications of these discourses from empirical and theoretical work to understand how LLMs encode moral norms, enact power through knoelwedge, and shape the boundaries of acceptable knowledge.
+Large Language Models (LLMs) such as GPT, Claude, and Gemini are now integral to global knowledge production. They generate text, summarise ideas, and make moral judgements. While portrayed as objective and value-free, they are not. This case study analyses how these models shape and enforce normative discourses. A normative discourse is a set of moral, cultural, and epsitemological assumptions about what counts as truth, fairness, or reason that is structured through both language, power, and knowledge. Let's explore the ethical implications of these discourses from empirical and theoretical work to understand how LLMs encode moral norms, enact power through knoelwedge, and shape the boundaries of acceptable knowledge.
 
 
 
