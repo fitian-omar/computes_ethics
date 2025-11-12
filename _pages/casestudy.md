@@ -44,7 +44,7 @@ Discuss how AI works and how it relates to our study, as well as what we are yet
 
 Users will answer receive Am I The Asshole prompts and answer them. Each answer will explain the harm in taking a moral stance, compare to the answers of models, understand why the models differ.
 
-[Activity](/casestudy/activity.md)
+[Activity](_casestudy/activity)
 
 # Actions
 
