@@ -5,9 +5,15 @@ permalink: /podcasts/podcast4
 excerpt: "Dangers and benefits of tech!"
 date: 2025-11-11
 audio: computes_ethics/files/podcast4-paloma-omar.mp3
-video: computes_ethics/files/GuthFitian-audiogram3.mp4
+video: computes_ethics/files/audiogram4.mp4
 ---
 
-The podcast discusses limited ownership in the digital age and the planned obscolescence of tech. We discuss how capital drives the unequal distribution and unethical production of technology and its harmful ecological effects.
+We each bring Black Mirror episode pitches. We discuss the tech used, if we're close to developing it, and its ethical consequences on society.
 
-![A bar chart of ownership](https://fitian-omar.github.io/computes_ethics/images/File_000.png)
+Omar's episode discusses the unique challenges an isolated class of computer ethicists face as they evaluate digital claims and advocate for others through digital media.
+
+Paloma's episode discusses a near-future in which a reality simulator offers more comfort than real life, and the effects this could have on bodies and minds.
+
+The positive spin is that neuro virtual reality will be used to supplement, not substitute reality, increasing happiness without commodifying emotions.
+
+![Visualisation of episode](https://fitian-omar.github.io/computes_ethics/images/image.jpg)
