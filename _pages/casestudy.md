@@ -5,9 +5,11 @@ author_profile: true
 ---
 
 # Learning Objectives
-- Explain how normative discourse operates within Large Language Models (LLMs).
+
+- Explain how Large Language Models (LLMs) engage in discourse.
+- Identify some discourses that popular LLMs implicitly or explicitly use.
 - Reflect on the dialectic of society and AI.
-- Identify how moral and epistemic biases are embedded in LLMs.
+- Explore how moral and epistemic biases are embedded in LLMs.
 - Evaluate the effects of these biases on different stakeholders.
 
 
@@ -15,16 +17,15 @@ author_profile: true
 
 Large Language Models (LLMs) such as GPT, Claude, and Gemini are now integral to global knowledge production. They generate text, summarise ideas, and make moral judgements. While portrayed as objective and value-free, they are not. This case study analyses how these models shape and enforce normative discourses. A normative discourse is a set of moral, cultural, and epsitemological assumptions about what counts as truth, fairness, or reason that is structured through both language, power, and knowledge. Let's explore the ethical implications of these discourses from empirical and theoretical work to understand how LLMs encode moral norms, enact power through knowledge, and shape the boundaries of acceptable knowledge.
 
-
-
 # The Issue
+
 LLMs are not value-free. Agbon (2024) argues that generative AI operates through a dual discourse:
 1. Technoslutionst discourse: frames AI as a benevolent problem-solver.
 2. Generative discourse: the machine's language as shaped by its training data, architecture, and algorithms.
 
-Together, these discourses reproduce existing power relations by privileging certain epistemologies, Western, Anglophone, liberal, techno-rational, while magrginalising others. This can harm groups whose moral frameworks differ from dominant ones, particularly when AI becomes an authority that adjudicates truth, fairness, and decency in online and institutional spaces.
+Together, these discourses reproduce existing power relations by privileging certain epistemologies, (i.e. Western, Anglophone, liberal, techno-rational), while magrginalising others. This can harm groups whose moral frameworks differ from dominant ones, particularly when AI becomes an authority that adjudicates truth, fairness, and decency in online and institutional spaces.
 
-Sachdeva and Van Nuenen (2025) show this empirically. Seven commercial LLMs were asked to judge moral dilemmas, their moral verdicts diverging sharply, that is, LLMs express distinct moralities. We will explore why this happens.
+Sachdeva and Van Nuenen (2025) show this empirically. Seven commercial LLMs were asked to judge moral dilemmas, their moral verdicts diverging, that is, LLMs express distinct moralities. We will explore why this happens.
 
 Moving beyond censorship or bias mitigation, the ethical question is whose morality is represented in the discourse.
 
@@ -32,19 +33,13 @@ Moving beyond censorship or bias mitigation, the ethical question is whose moral
 
 Large Language Models are built through a multi-stage process each of which introduces risks of ethical and epistemic biases.
 
-LLMs are trained on enormous text datasets drawn from web pages, books, Wikipedia, academic papers, news articles, and social media posts.
+Firslty, training data can be biased. LLMs are trained on enormous text datasets drawn from web pages, books, Wikipedia, academic papers, news articles, and social media posts. According to W3Techs, the internet's "relevant web," a network of webpages whose content is meaningful, is at least 50% in English. ChatGPT's training dataset is 93% English, according to Gillings. Because most digitised and accessible material online is Anglophone and Western, the resulting training data overrepresents Western liberal, secular, and capitalist worldviews while underrepresenting oral, non-Western, or indigenous epistemologies.
 
-According to W3Techs, the internet's "relevant web," a network of webpages whose content is meaningful, is at least 50% in English. ChatGPT's training dataset is 93% English, according to Gillings. Because most digitized and accessible material online is Anglophone and Western, the resulting corpus overrepresents Western liberal, secular, and capitalist worldviews while underrepresenting oral, non-Western, or indigenous epistemologies.
+Even when multilingual data are included, the quality and quantity of translations vary drastically, introducing translation bias. English concepts are treated as linguistic and moral “defaults,” while non-English expressions of ethics, religion, or emotion are often flattened or mistranslated. 
 
-Even when multilingual data are included, the quality and quantity of translations vary drastically, introducing translation bias. English concepts are treated as linguistic and moral “defaults,” while non-English expressions of ethics, religion, or emotion are often flattened or mistranslated. AI models do not critically assess interpretations or hermeneutics of translation. 
+Data filtering removes explicit hate speech, violence, or misinformation, which improves safety but also constructs boundaries on what is harmful, acceptable, and rational. These judgments reflect the moral frameworks of a limited group of engineers, not global consensus. While on that note, a global consesus is not possible nor should necessarily be regarded as knowledge. Further problematising filtering is incorrect or misleading labels. For example, a UK-based activist organisation, PalAction, has been recently designated as a terrorist organisation for vandalising properties of weapon manufacturers while protesting the Gaza genocide. 
 
-Data filtering removes explicit hate speech, violence, or misinformation, which improves safety but also constructs moral boundaries on what is harmful, acceptable, and rational. These judgments reflect the moral frameworks of a limited group of engineers, not global consensus. While on that note, a global consesus is not possible nor should necessarily be the goal. Further problematising this is incorrect or misleading labels. For example, a UK
-
-Pre-Training: Predictive Language Modeling
-
-The model learns to predict the next word (token) in a sequence based on probabilities computed from billions of examples.
-
-This process builds what Agbon (2024) calls a Technical–Epistemic–Linguistic Substrate (TELS): the technical architecture (e.g., Transformer networks), the epistemic logic (data-driven inductivism), and the linguistic norms (grammar and style) that together shape the machine’s “voice.”
+Models learn to predict the next word (token) in a sequence based on probabilities computed from billions of examples. Agbon calls this process a Technical–Epistemic–Linguistic Substrate (TELS): the technical architecture (e.g., Transformer networks), the epistemic logic (data-driven inductivism), and the linguistic norms (grammar and style) that together shape the machine’s “voice.”
 
 Because prediction is guided by statistical frequency rather than truth or moral reasoning, the model tends to reproduce what is most recurrent, not what is most just or true. It operationalizes empiricism without ethics—a pattern that privileges dominant discourse and marginalizes the rare or dissenting one.
 
@@ -57,8 +52,6 @@ This introduces another layer of normative mediation: human raters, often drawn 
 The model then learns to favor the style of reasoning and tone preferred by these raters—commonly polite, liberal, Western moral sensibilities (Agbon, 2024).
 
 Sachdeva and Van Nuenen (2025) show that moral divergence among LLMs stems partly from this stage: OpenAI’s alignment process produces reasoning closer to utilitarian individualism, while models trained by Asian or European firms show more collectivist or deontological leanings.
-
-Opaque Evaluation and Post-Training Filtering
 
 Developers perform additional filtering to suppress politically sensitive or “unsafe” topics, yet the criteria for safety are proprietary and undisclosed.
 
@@ -85,13 +78,13 @@ Users will answer receive Am I The Asshole prompts and answer them. Each answer 
 
 **Do not read the section below until you are done with the activity**
 
-When presented with the same scenario, ChatGPT, Gemini, and Claude deliver moral judgments that agree that the father is not the wrongdoer. However, they diverge in the ethical frameworks they implicitly mobilise to justify that conclusion. Examining these differences reveals how each model encodes a distinct moral vocabulary, prioritises different forms of harm, and foregrounds particular social relationships. These divergences matter for AI ethics because they illuminate the value-laden architectures underlying ostensibly neutral judgments.
+When presented with the same scenario, ChatGPT, Gemini, and Claude deliver moral judgments that agree that the father is not the wrongdoer. However, they diverge in the ethical frameworks they mobilise to justify their judgement. Examining these differences reveals how each model reproduces a distinct moral lens. These divergences matter for AI ethics because they illuminate how value-laden architecture underlies ostensibly neutral judgments.
 
-Claude’s response is the most explicitly grounded in a care ethics perspective, emphasising emotional well-being, psychological safety, and relational harm. Claude treats the 16-year-old daughter’s distress not merely as property loss but as a significant moral injury—“a serious red flag”—and frames the father's action as a necessary response to protect a vulnerable person’s emotional security. Claude interprets the silent treatment the household deploys as an act of emotional manipulation, again centering relational dynamics rather than formal rules. In this way, Claude conceptualizes the household as an affective ecosystem and judges the moral agents according to how well they sustain or harm that ecosystem. This aligns strongly with feminist care ethics traditions, where vulnerability, dependence, and emotional safety constitute primary moral facts.
+Claude’s response is the most explicitly grounded in a care/feminist ethics perspective, emphasising emotional well-being and psychological safety. Claude treats the 16-year-old daughter’s distress as “a serious red flag,” grounding it in moral injury and consequently frames the father's action as a necessary response to protect her emotional security. Claude interprets the silent treatment the household deploys as emotional manipulation, again centering affect. In this way, Claude conceptualises the household as an affective ecosystem and judges the moral agents according to how well they sustain or harm that ecosystem. This aligns strongly with feminist care, where vulnerability, dependence, and emotional safety are principal.
 
-Gemini offers a different moral grammar, one closer to deontological fairness and property rights. Although it also concludes that the father is morally justified, its justification foregrounds the daughters’ violation of boundaries, improper “borrowing,” and disrespect for personal property. Gemini treats the harm in largely instrumental terms: the cousins took items, caused financial loss, and dismissed clear rules about permission. Its criticism of the wife (“inadequate parent”) is structured around failure to enforce norms rather than failure to empathize. Gemini does acknowledge emotional dynamics, but they appear secondary to rule-based obligations. In this reading, the moral world is structured by enforceable duties—parents must protect their child’s property and privacy; guests must respect household norms—rather than the maintenance of relational well-being.
+Gemini offers a different moral grammar, one closer to deontological fairness and property rights. Although it also concludes that the father is morally justified, its justification foregrounds the daughters’ violation of boundaries, improper “borrowing,” and disrespect for personal property. Gemini treats the harm in largely instrumental terms: the cousins took items, caused financial loss, and dismissed clear rules about permission. Its criticism of the wife (“inadequate parent”) is structured around failure to enforce norms rather than failure to empathise. Gemini does acknowledge emotional dynamics, but they appear secondary to rule-based obligations. In this reading, the moral world is structured by enforceable duties; parents must protect their child’s property and privacy while guests must respect household normsrather than the maintenance of relational well-being.
 
-ChatGPT’s response occupies a middle ground, constructing a hybrid of care ethics and deontological reasoning. It unequivocally prioritizes the minor child’s safety, privacy, and autonomy, but describes this protection in both emotional and rights-based terms. For ChatGPT, the father’s moral justification arises from proportionality (a just response to repeated violations), parental duty (obligation to safeguard a minor), and the principle of consent (taking without permission). This reasoning integrates relational considerations with rule-based obligations, presenting morality as both a matter of protecting the vulnerable and upholding rights. Unlike Gemini, ChatGPT sees the harm as more than just property loss, but unlike Claude, it frames emotional harm as part of a broader landscape of boundary violations rather than the sole moral center.
+ChatGPT’s response occupies a middle ground, constructing a hybrid of care ethics and deontological reasoning. It  prioritises the minor child’s safety, privacy, and autonomy, but describes this protection in both emotional and rights-based terms. For ChatGPT, the father’s moral justification arises from proportionality (a just response to repeated violations), parental duty (obligation to safeguard a minor), and the principle of consent (taking without permission). This reasoning integrates relational considerations with rule-based obligations, presenting morality as both a matter of protecting the vulnerable and upholding rights. Unlike Gemini, ChatGPT sees the harm as more than just property loss, but unlike Claude, it frames emotional harm as part of a broader landscape of boundary violations rather than the sole moral center.
 
 These three responses illustrate how LLMs encode distinct ethical sensibilities that shape their interpretations of the same event. Claude’s model privileges emotional safety and relational ethics; Gemini foregrounds rules, fairness, and property rights; ChatGPT synthesizes these into a balanced account of parental duty, boundaries, and vulnerability. The differences matter: had the prompt been more ambiguous, or had different stakeholders been harmed, each model’s underlying value structure could plausibly generate divergent outcomes.
 
