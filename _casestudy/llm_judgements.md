@@ -2,6 +2,7 @@
 title: "Activity: LLM Judgements"
 permalink: /casestudy/llm_judgements/
 author_profile: true
+layout: default
 ---
 
 # ChatGPT
