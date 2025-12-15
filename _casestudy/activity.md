@@ -35,4 +35,4 @@ AITA for telling my wife the lock on my daughter's door does not get removed til
 
 
 
-[Go back to Case Study](computes_ethics/casestudy/)
+[Go back to Case Study](/computes_ethics/casestudy/)

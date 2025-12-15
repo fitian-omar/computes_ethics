@@ -1,6 +1,6 @@
 ---
 title: "Activity: LLM Judgements"
-permalink: /llm_judgements/
+permalink: /casestudy/llm_judgements/
 author_profile: true
 ---
 
