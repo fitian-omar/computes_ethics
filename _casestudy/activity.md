@@ -31,8 +31,8 @@ Everyone's been giving me and Zoey silent treatment and my wife is very much ups
 
 AITA for telling my wife the lock on my daughter's door does not get removed til my brother inlaw and his daughters are out of our house?
 
-[How does your judgement compare to popular LLMs?](/_casestudy/llm_judgements.md)
+[How does your judgement compare to popular LLMs?](/computes_ethics/casestudy/llm_judgements/)
 
 
 
-[Go back to Case Study](/pages/casestudy)
+[Go back to Case Study](computes_ethics/casestudy/)

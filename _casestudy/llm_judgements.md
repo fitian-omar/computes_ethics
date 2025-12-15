@@ -1,6 +1,6 @@
 ---
 title: "Activity: LLM Judgements"
-permalink: /casestudy/llm_judgements
+permalink: /llm_judgements/
 author_profile: true
 ---
 
@@ -75,4 +75,4 @@ Your daughter shouldn't have to feel like a visitor in her own house while accom
 
 
 
-[Go back to Case Study](/pages/casestudy)
+[Go back to Activity](/computes_ethics/casestudy/activity/)
